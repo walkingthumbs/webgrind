@@ -1,5 +1,6 @@
-Webgrind
-========
+Webgrind - Walking Thumbs Fork
+==============================
+
 Webgrind is a [Xdebug](http://www.xdebug.org) profiling web frontend in PHP5. It implements a subset of the features of [kcachegrind](http://kcachegrind.sourceforge.net/cgi-bin/show.cgi) and installs in seconds and works on all platforms. For quick'n'dirty optimizations it does the job. Here's a screenshot showing the output from profiling:
 
 [![](http://jokke.dk/media/2008-webgrind/webgrind_small.png)](http://jokke.dk/media/2008-webgrind/webgrind_large.png)
@@ -24,7 +25,8 @@ Installation
 ------------
   1. Download webgrind
   2. Unzip package to favourite path accessible by webserver.
-  3. Load webgrind in browser and start profiling
+  3. Copy `config.php.default` to `config.php`, and make any necessary modifications. 
+  4. Load webgrind in browser and start profiling
 
 See the [Installation page on Google Code](http://code.google.com/p/webgrind/wiki/Installation) for more
 
